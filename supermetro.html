@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Navigation Bar</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/navbarCSS.css">
+    <script src="bootstrap/js/jquery-3.5.1.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm topMenu navbar-dark sticky-top">
+    <!-- NavLogo -->
+    <nav class="navbar navbar-expand-sm">
+        <a href="#" class="navbar-brand">
+            <img src="image/smlogo.png" alt="logo" style="width:50px">
+        </a>
+        <a href="#" class="navbar-brand">
+            <img src="image/bottomlog.png" alt="logo" style="width:100px" class="btn-light">
+        </a>
+    </nav>
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <!-- Links -->
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+            </li>
+
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Services
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">PSV Transport Services</a>
+                    <a class="dropdown-item" href="#">Courier Services</a>
+
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">FAQ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+        <li data-target="#demo" data-slide-to="3"></li>
+        <li data-target="#demo" data-slide-to="4"></li>
+    </ul>
+
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="image/slides/Slide1.jpg" alt="Slide Pic One" class="fluid">
+            <div class="carousel-caption">
+                <h3>Safe Transportation</h3>
+                <p>We have reliable drivers</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="image/slides/Slide2.jpg" alt="Slide Pic Two" class="fluid">
+            <div class="carousel-caption">
+                <h3>Customer Care Services</h3>
+                <p>You can contact freely for enquiries</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="image/slides/Slide3.jpg" alt="Slide Pic Three" class="fluid">
+            <div class="carousel-caption">
+                <h3>Safe Courier</h3>
+                <p>Most reliable deliveries</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="image/slides/Slide5.jpg" alt="Slide Pic Four" class="fluid">
+        </div>
+        <div class="carousel-item">
+            <img src="image/slides/Slide7.jpg" alt="Slide Pic Five" class="fluid">
+            <div class="carousel-caption">
+                <h3>Serving You</h3>
+                <p>Setting up the pace in transport and courier industry</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+
+</div>
+<div class="jumbotron jone jumbotron-fluid" >
+    <h1 id="home">Home</h1>
+</div>
+<div class="container" id="upDates">
+    <h2><b>Super Metro Updates</b></h2>
+    <h4>CBD Terminus Fate</h4>
+    <div class="row">
+        <div class="col-sm-4">
+            <p class="text-justify"><span><strong><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aspernatur cupiditate, debitis doloribus dolorum eius, eligendi expedita iure molestias natus necessitatibus nesciunt, non quam sequi soluta suscipit tempora voluptate! Nihil.</i></strong></span><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad asperiores dignissimos distinctio dolores inventore itaque iure, nisi perspiciatis possimus praesentium quas tempora temporibus ullam vitae. Asperiores doloribus libero nemo.</span><span>Accusantium amet, aperiam beatae consequuntur culpa delectus error et fugiat iusto laudantium magnam molestias necessitatibus, neque omnis pariatur perferendis perspiciatis quae quam quidem quis quisquam sequi soluta sunt tempora voluptas?</span><span>Ad at distinctio dolor, dolore esse ex expedita explicabo fugit id iste iusto laboriosam laudantium minima molestiae nemo nulla omnis quaerat quidem rem sed similique sit sunt tenetur voluptates voluptatum?</span></p>
+
+        </div>
+        <div class="col-sm-4">
+            <p class="text-justify"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aspernatur cupiditate, debitis doloribus dolorum eius, eligendi expedita iure molestias natus necessitatibus nesciunt, non quam sequi soluta suscipit tempora voluptate! Nihil.</span><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aspernatur cupiditate, debitis doloribus dolorum eius, eligendi expedita iure molestias natus necessitatibus nesciunt, non quam sequi soluta suscipit tempora voluptate! Nihil.</span><span>Alias, architecto blanditiis dolor doloribus dolorum enim error eveniet ex excepturi expedita ipsa ipsum libero minima minus modi molestias neque nobis placeat provident quam quo quod sit veniam vitae voluptatibus.</span><span>Commodi culpa eaque eos sunt totam? Atque cupiditate debitis, distinctio iste itaque odit veritatis voluptate. Ad aliquam at explicabo maxime repellat! Adipisci beatae error libero nihil, odio praesentium sunt! Dolorem.</span></p>
+        </div>
+        <div class="col-sm-4">
+            <img id="img1" src="image/verticlepic.jpg" alt="Matatu Pic" width="100%">
+            <p id="img1a"><em>image/:courtesy of metro shuttle photography</em></p>
+        </div>
+    </div>
+    <br>
+    <h4>Curbing The Pandemic</h4>
+    <div class="row rTwo">
+        <div class="col-sm-8">
+            <img id="img2" src="image/slides/curbing.jpg" alt="matatu image" width="100%">
+            <p id="img1a"><em>image/:courtesy of metro shuttle photography</em></p>
+        </div>
+        <div class="col-sm-4">
+            <p class="text-justify rTwotext"><span><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam aliquid cupiditate ipsam labore necessitatibus nemo nesciunt placeat sapiente sunt! Culpa deleniti deserunt maxime nostrum quam sed, ut veniam voluptates.</strong></span><span>Commodi cum exercitationem illo velit. A atque c dolorem, facilis nihil, quod ratione reiciendis sed sunt, ullam vero? Corporis, distinctio!</span><span>Commodi cum exercitationem illo illum quas totam velit. A atque cum debitis dolor dolore dolorem, facilis nihil, quod ratione reiciendis sed sunt, ullam vero? Corporis, distinctio!</span><span>Alias animi itaque nostrum. Ab amet consequatur dolorum earum eius error esse nihil, obcaecati, placeat possimus qui quis quod repellendus sunt unde! Assumenda doloremque est ipsum molestias nam quidem ut.</span>
+            </p>
+        </div>
+    </div>
+    <br>
+    <hr>
+</div>
+<div class="jumbotron jone jumbotron-fluid" >
+    <h1 id="home">Services</h1>
+</div>
+<div class="container enq">
+    <div class="row enqRow">
+        <div class="col-sm-6">
+            <div class="card">
+                <h5>PSV.Transport Services</h5>
+                <a href="supermetro68@gmail.com" class="btn enqOne">Enquire More</a>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <h5>Courier Services</h5>
+                <a href="supermetro68@gmail.com" class="btn enqTwo">Enquire More</a>
+            </div>
+        </div>
+    </div>
+    <hr>
+</div>
+<br>
+<div class="jumbotron jone jumbotron-fluid" >
+    <h1 id="home">About Us</h1>
+</div>
+<div class="container">
+<div class="row">
+    <div class="col-sm-4">
+        <h2>Who We Are</h2>
+        <p class="text-justify"><span><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </strong>Consequatur deserunt, doloribus eaque earum explicabo, hic, numquam quis quos rerum totam velit voluptas. Excepturi expedita omnis placeat provident quasi quisquam vero?</span><span>Ad blanditiis consequuntur  quod quos repellat rerum culpa dolor dolore doloremque doloribus et id labore laborum, modi mollitia nemo nesciunt officiis quia quibusdam saepe similique tempore vitae voluptate! Assumenda est harum quibusdam ratione ullam?</span><span>Animi, at cum deserunt dicta esse et illum iste minus, odio odit optio perspiciatis ratione repellendus sed tempora unde voluptatem! Accusantium ipsam maiores molestias optio repellat. Dolorum in modi rerum!</span>
+        </p>
+    </div>
+    <div class="col-sm-4">
+        <h2>Our Values</h2>
+        <p class="text-justify"><span><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong> Ab amet architecto at debitis, dignissimos possimus quas quisquam quos suscipit vel voluptatibus.</span><span>Aliquid cum dignissimos distinctio doloribus dolorum eius, eos est fugiat ipsam iure laboriosam,  laborum molestias numquam quas quasi quidem quod quos repellat rerum saepe suscipit tempore, ullam unde velit vitae:</span>
+        </p>
+        <ul>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+        </ul>
+    </div>
+    <div class="col-sm-4">
+        <br>
+        <br>
+        <br>
+        <img id="img3" src="image/slides/stage.jpg" alt="" width="300">
+        <p id="img1a"><em>image/:courtesy of metro shuttle photography</em></p>
+    </div>
+</div>
+</div>
+
+<br>
+<div class="jumbotron jone jumbotron-fluid" >
+    <h1 id="home">Contact Us</h1>
+</div>
+<div class="container">
+<div class="row">
+    <div class="col-sm-6">
+        <form action="email:supermetro68@gmail.com" method="post" class="contactUs1">
+            <label for="">First Name:</label>
+            <input type="text" name="fName" placeholder="* First Name" class="form-control">
+            <label for="">Last Name:</label>
+            <input type="text" name="lName" placeholder="* Last Name" class="form-control">
+            <label for="">Telephone Number:</label>
+            <input type="tel" name="telNum" placeholder="* Telephone Number" class="form-control">
+            <label for="">Your Email:</label>
+            <input type="email" name="eMail" placeholder="* Your Email Address" class="form-control">
+            <label for="">Your Comments:</label>
+            <textarea name="comment" id="" cols="30" rows="10" placeholder="Your Comments" class="form-control"></textarea>
+            <div class="buttons">
+                <button type="submit" class="btn">Send Contacts</button>
+            </div>
+            <div class="buttons">
+                <button type="reset" class="btn">Clean Form</button>
+            </div>
+        </form>
+    </div>
+    <div class="col-sm-6" id="courtesy">
+        <img src="image/smlogo.png" alt="">
+        <p class="text-justify text-center"><em>Image by Cephas Mutua: Courtesy of Super Metro</em></p>
+        <h3>Super Metro Limited</h3>
+        <p id="contacts">P.O Box 3021-00100 Nairobi</p>
+        <p id="contacts">Njengi House</p>
+        <p id="contacts">5<sup>th</sup> Floor</p>
+        <p id="contacts">Tom Mboya Street</p>
+        <p id="contacts">Email: <a href="supermetro68@gmail.com">supermetro68@gmail.com</a></p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.265812560307!2d36.8254564!3d-1.2840302!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5a6032fe3f3ffb3f!2sSuper%20Metro%20Kikuyu%20Stage!5e0!3m2!1sen!2ske!4v1607139553225!5m2!1sen!2ske" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+</div>
+    <br>
+    <hr>
+    <br>
+    <nav class="footer">
+        <h6 style="...">Copyright &copy; 2020 | Super Metro Ltd | All Rights Reserved</h6>
+    </nav>
+</body>
+</html>

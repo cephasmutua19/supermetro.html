@@ -1,0 +1,14 @@
+.contactUs{
+    padding: 20px;
+    background: darkred;
+    border-radius: 10px;
+}
+input[type=text],input[type=email],input[type=tel],textarea,button
+{
+   margin: 8px 0;
+}
+.buttons{
+    display: flex;
+align-items: center;
+    justify-content: center;
+}

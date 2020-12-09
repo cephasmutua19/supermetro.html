@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f04a0162-f7fe-4c4d-9abf-9b645cec2565" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kzyoBMiZrKMKVKDFdfDFx7vsWl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/image" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Josephine Mbuthi\PhpstormProjects\bootStrapSmartclass\image" />
+      <recent name="C:\Users\Josephine Mbuthi\PhpstormProjects\bootStrapSmartclass\image\slides" />
+      <recent name="C:\Users\Josephine Mbuthi\PhpstormProjects\bootStrapSmartclass\bootstrap\js" />
+      <recent name="C:\Users\Josephine Mbuthi\PhpstormProjects\bootStrapSmartclass" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Josephine Mbuthi\PhpstormProjects\bootStrapSmartclass\css" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f04a0162-f7fe-4c4d-9abf-9b645cec2565" name="Default Changelist" comment="" />
+      <created>1606717892161</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606717892161</updated>
+      <workItem from="1606717894859" duration="2264000" />
+      <workItem from="1606744282731" duration="2322000" />
+      <workItem from="1606751869053" duration="618000" />
+      <workItem from="1606753492052" duration="70000" />
+      <workItem from="1606874228117" duration="12045000" />
+      <workItem from="1606910752049" duration="4228000" />
+      <workItem from="1606923233187" duration="873000" />
+      <workItem from="1606960982030" duration="8929000" />
+      <workItem from="1606998909837" duration="6231000" />
+      <workItem from="1607047117501" duration="1577000" />
+      <workItem from="1607049621816" duration="11065000" />
+      <workItem from="1607074460442" duration="4107000" />
+      <workItem from="1607154806077" duration="2592000" />
+      <workItem from="1607178959825" duration="1257000" />
+      <workItem from="1607181922555" duration="2513000" />
+      <workItem from="1607190742653" duration="930000" />
+      <workItem from="1607220172278" duration="26589000" />
+      <workItem from="1607319448864" duration="2095000" />
+      <workItem from="1607333529831" duration="929000" />
+      <workItem from="1607342364752" duration="19821000" />
+      <workItem from="1607409859289" duration="20446000" />
+      <workItem from="1607436567516" duration="8546000" />
+      <workItem from="1607446521137" duration="776000" />
+      <workItem from="1607464269939" duration="11700000" />
+      <workItem from="1607482805408" duration="7947000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1607349575692">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1607349575692" />
+  </component>
+</project>

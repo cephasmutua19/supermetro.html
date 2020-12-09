@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practice one in Bootstrap</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/exerciseCSS.css">
+    <script src="bootstrap/js/jquery-3.5.1.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+</head>
+<body>
+<div class="container">
+    <h2>Collapsable</h2>
+    <hr>
+    <button data-toggle="collapse" data-target="#collapseA" class="btn" id="topButton">About</button>
+    <div id="collapseA" class="collapse">
+        <p class="text-justify"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi culpa dolor doloribus error hic illo ipsum iure magnam, modi molestiae nobis odio pariatur quaerat rem repudiandae tempora tenetur! Odit, reprehenderit?</span><span>Accusantium dolorum esse minus pariatur saepe? Adipisci assumenda atque eius, facilis ipsa, ipsum iusto laboriosam minima numquam odit placeat porro, quia ullam. Accusamus aspernatur dignissimos dolores ea minus neque totam!</span><span>Harum laudantium minus quas, quod recusandae reprehenderit. Consequatur dolores ipsa nobis odit officia perferendis provident reiciendis. Eligendi enim ex harum incidunt natus odio soluta! Dignissimos et minus necessitatibus non temporibus.</span><span>Aliquam aliquid atque beatae, doloremque eius esse eum excepturi impedit ipsum magnam magni molestiae molestias necessitatibus neque nobis obcaecati placeat provident quasi quos saepe sapiente soluta tempore velit veritatis, voluptas!</span><span>Incidunt laboriosam neque qui quos vero? Architecto doloribus eos error et ex facilis laborum laudantium, nam, necessitatibus, porro provident qui saepe sequi similique voluptas? Amet eos facere minima quasi quis.</span>
+        </p>
+    </div>
+    <a href="#" data-toggle="collapse" data-target="#collapseB" class="btn" id="map">Google map</a>
+    <div id="collapseB" class="collapseB">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.265812560307!2d36.8254564!3d-1.2840302!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5a6032fe3f3ffb3f!2sSuper%20Metro%20Kikuyu%20Stage!5e0!3m2!1sen!2ske!4v1607139553225!5m2!1sen!2ske" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+</div>
+<div class="container">
+    <h2>Contact Us</h2>
+    <hr>
+    <div class="row">
+        <div class="col-sm-6">
+            <form action="email:cephasmutua@yahoo.com" method="post" class="contactUs1">
+                <label for="">First Name:</label>
+                <input type="text" name="fName" placeholder="* First Name" class="form-control">
+                <label for="">Last Name:</label>
+                <input type="text" name="lName" placeholder="* Last Name" class="form-control">
+                <label for="">Telephone Number:</label>
+                <input type="tel" name="telNum" placeholder="* Telephone Number" class="form-control">
+                <label for="">Your Email:</label>
+                <input type="email" name="eMail" placeholder="* Your Email Address" class="form-control">
+                <label for="">Your Comments:</label>
+                <textarea name="comment" id="" cols="30" rows="10" placeholder="Your Comments" class="form-control"></textarea>
+                <div class="buttons">
+                    <button type="submit" class="btn btn-info">Send Contacts</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-sm-6" id="courtesy">
+            <img src="image/curiousrobot.jpg" alt="Robot pic" width="100%">
+            <p class="text-justify text-center"><em>Image by Cephas Mutua: Courtesy of Nemanja Sekulje tutorials</em></p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

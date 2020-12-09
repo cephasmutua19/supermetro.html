@@ -1,0 +1,136 @@
+body{
+    background: #f9f9f9;
+}
+.topMenu{
+    background: #ff6600;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+}
+.logo{
+    border: 10px solid midnightblue;
+    background-color: #fff;
+}
+.dropdown-menu{
+    background: #ff6600;
+}
+.dropdown-item{
+    color: oldlace;
+}
+.dropdown-item:hover{
+    color: #c44f01;
+}
+h2{
+    text-align: center;
+    padding-bottom: 20px;
+    color: #ff6600;
+}
+h4{
+    display: grid;
+    place-items: center;
+}
+#upDates{
+    padding-bottom: 50px;
+}
+.carousel-item, img{
+    max-height: 570px;
+    width: 100%;
+}
+.jone{
+    background: #b7b6b6;
+    display: grid;
+    place-items: center;
+}
+#home{
+    font-size: 50px;
+    color: midnightblue;
+
+}
+#img1, #img2{
+    border-radius: 16px;
+}
+#img1a{
+    font-size: 10px;
+    text-align: center;
+}
+#img3{
+
+}
+.rTwo{
+    padding-top: 50px;
+    background: #b7b6b6;
+    padding-bottom: 30px;
+    border-radius: 16px;
+    color: midnightblue;
+}
+.enq{
+    background-color: #f9f9f9;
+}
+h5{
+    display: grid;
+    place-items: center;
+}
+.card{
+    background-color: #fff;
+}
+.enqOne, .enqTwo{
+    background: #ff6600;
+    border: #ff6600;
+    color: white;
+    border-radius: 16px;
+    margin: 20px;
+}
+.enqOne:hover, .enqTwo:hover{
+    background: #b7b6b6;
+    color: #ff6600;
+}
+.enqRow{
+    padding-bottom: 16px;
+}
+.contactUs1{
+    padding: 20px;
+    background: #b7b6b6;
+    border-radius: 15px;
+    border: 3px solid #ff6600;
+}
+label{
+    color: midnightblue;
+    margin-top: 15px;
+}
+input[type=text], input[type=tel], input[type=email], textarea[class=form-control]{
+    border-radius: 15px;
+    background: #f9f9f9;
+}
+.buttons{
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 15px;
+}
+button[type=submit], button[type=reset] {
+    border-radius: 15px;
+    background: #ff6600;
+    border: #ff6600;
+    color: white;
+}
+button[type=submit]:hover, button[type=reset]:hover{
+    background: white;
+    color: midnightblue;
+}
+#courtesy{
+}
+#contacts, h3{
+    margin-bottom: 0px;
+    text-align: center;
+}
+.footer{
+    overflow: hidden;
+    background: #ff6600;
+    margin: 0;
+    padding: 25px;
+    text-align: center;
+    color: white;
+}
+
+

@@ -1,0 +1,9 @@
+.ContactUs{
+    padding: 15px;
+    background: darkslategray;
+    border-radius: 10px;
+}
+input[type=text],input[type=email],input[type=tel],textarea,button
+{
+    margin: 8px 0;
+}

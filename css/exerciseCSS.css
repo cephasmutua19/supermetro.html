@@ -1,0 +1,44 @@
+#topButton{
+    background: gold;
+
+}
+button[id=topButton]{
+    border: 10px solid gold;
+    border-radius: 15px;
+}
+a[id=map]{
+    border: 10px solid gold;
+    border-radius: 15px;
+    background: gold;
+}
+.contactUs1{
+    padding: 20px;
+    background: darkslategray;
+    border-radius: 15px;
+}
+label{
+    color: white;
+    margin-top: 15px;
+}
+input[type=text], input[type=tel], input[type=email], textarea{
+    border-radius: 15px;
+}
+.buttons{
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 15px;
+}
+button[type=submit]{
+    border-radius: 15px;
+    background: gold;
+    border: #10707f;
+    color: darkslategray;
+}
+#courtesy{
+    margin-top: 20px;
+}
+img{
+    border-radius: 15px;
+}
